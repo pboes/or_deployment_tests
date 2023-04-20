@@ -7,7 +7,8 @@ include("lp.jl")
 Genie.config.run_as_server = true
 
 route("/") do
-    (:message => solve_lp()) |> json
+    b = params(:b, 2)
+    (:message => solve_lp(parse(Int,b))) |> json
 end
 
 up()
