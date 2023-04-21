@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "dd774248d49fd6eb8abb8ad114129376e68c6a12"
+project_hash = "796ef3baa27e8280e8d31765778cc157bbdaff11"
 
 [[deps.ArgParse]]
 deps = ["Logging", "TextWrap"]
@@ -174,6 +174,18 @@ deps = ["ArgParse", "Dates", "Distributed", "DotEnv", "EzXML", "FilePathsBase", 
 git-tree-sha1 = "c900c66518fa663d41b58895397c169d5c09f750"
 uuid = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
 version = "5.15.3"
+
+[[deps.GenieDeploy]]
+deps = ["Genie"]
+git-tree-sha1 = "26e8c6c7850a28699715c4c553fc61a73a452cb1"
+uuid = "d108a3e0-159a-438b-bbd8-7bf1a8b5a5d1"
+version = "1.0.1"
+
+[[deps.GenieDeployDocker]]
+deps = ["Genie", "GenieDeploy"]
+git-tree-sha1 = "0626516bbbf43599093ee21cf9ea8e510e57fb41"
+uuid = "a082159f-dd50-4f6d-a3c5-00c38fd36577"
+version = "1.0.1"
 
 [[deps.Glob]]
 git-tree-sha1 = "97285bbd5230dd766e9ef6749b80fc617126d496"
