@@ -1,5 +1,0 @@
-[deps]
-Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
-GenieDeployDocker = "a082159f-dd50-4f6d-a3c5-00c38fd36577"
-HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
-JuMP = "4076af6c-e467-56ae-b986-b466b2749572"

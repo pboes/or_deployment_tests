@@ -1,5 +1,4 @@
-# rest.jl
-using Genie
+using Genie.Router
 import Genie.Renderer.Json: json
 
 include("lp.jl")
@@ -11,4 +10,4 @@ route("/") do
     (:message => solve_lp(parse(Int,b))) |> json
 end
 
-up(8000,"0.0.0.0")
+up()
